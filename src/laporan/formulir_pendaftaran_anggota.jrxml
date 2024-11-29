@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="null" pageWidth="595" pageHeight="842" whenNoDataType="AllSectionsNoDetail" columnWidth="540" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="050952a0-347f-4a1a-82a2-38c939de3e65">
+	<property name="ireport.zoom" value="1.2100000000000002"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<field name="KEP" class="java.lang.String"/>
+	<field name="NIP" class="java.lang.String"/>
+	<field name="TP" class="java.lang.String"/>
+	<field name="Year" class="java.lang.String"/>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band splitType="Stretch"/>
+	</title>
+	<pageHeader>
+		<band splitType="Stretch"/>
+	</pageHeader>
+	<columnHeader>
+		<band splitType="Stretch"/>
+	</columnHeader>
+	<detail>
+		<band height="778" splitType="Stretch">
+			<image hAlign="Left">
+				<reportElement x="31" y="-1" width="60" height="75" uuid="2777e86d-3475-4e09-946b-6866c67ef0fe"/>
+				<imageExpression><![CDATA["D:\\RisetProposal\\Perpustakaan_SMAN1_KOTAGAJAH\\src\\icon\\3588306944.png"]]></imageExpression>
+			</image>
+			<image>
+				<reportElement x="456" y="-1" width="71" height="63" uuid="0e3fb430-5fd6-4223-99c5-2f9edc3cee5c"/>
+				<imageExpression><![CDATA["C:\\Users\\ACER\\Documents\\NetBeansProjects\\Perpustakaan_SMAN1_KOTAGAJAH\\src\\icon\\smansaga-removebg-preview.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="91" y="0" width="365" height="16" uuid="539ee379-68f5-4dc5-a178-da203316f94b"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="10" isBold="false"/>
+				</textElement>
+				<text><![CDATA[DINAS PENDIDIKAN KABUPATEN LAMPUNG TENGAH]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="91" y="16" width="365" height="16" uuid="09486c3c-dcfd-476b-b219-539915c122cd"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[SMA NEGERI 1 KOTAGAJAH]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="91" y="32" width="365" height="14" uuid="76f090bc-293c-4074-8eff-1eb17d4ef22f"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="9"/>
+				</textElement>
+				<text><![CDATA[Jalan Raya Kotagajah Lampung Tengah, Kode Pos 34153]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="91" y="46" width="213" height="14" uuid="97c5de55-3f25-458c-b7ef-a16849c3a30f"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="Arial" size="9"/>
+				</textElement>
+				<text><![CDATA[Telp. 0725-48316 - Fax, 0725-48316. E-mail: ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="304" y="46" width="152" height="14" forecolor="#0066FF" uuid="6e3fce9f-c0a8-46f9-8624-1a94d50e6927"/>
+				<textElement>
+					<font fontName="Arial"/>
+				</textElement>
+				<text><![CDATA[sman1koga@yahoo.com]]></text>
+			</staticText>
+			<line>
+				<reportElement x="31" y="80" width="496" height="1" uuid="b64a838c-9ed0-46df-977d-2d1764a7115a"/>
+				<graphicElement>
+					<pen lineWidth="2.25" lineStyle="Double"/>
+				</graphicElement>
+			</line>
+			<staticText>
+				<reportElement x="0" y="95" width="555" height="20" uuid="3d5105ca-c1a6-4a39-ba68-d15fdd29b026"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial"/>
+				</textElement>
+				<text><![CDATA[FORMULIR PENDAFTARAN ANGGOTA PERPUSTAKAAN]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="115" width="555" height="20" uuid="0fde4e24-2448-4a9a-98af-a8eb0e2fd187"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial"/>
+				</textElement>
+				<text><![CDATA[SMA NEGERI 1 KOTAGAJAH]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="135" width="255" height="20" uuid="f240fa05-4476-421d-8045-8638d6006653"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="Arial"/>
+				</textElement>
+				<text><![CDATA[TP.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="91" y="60" width="365" height="14" uuid="06dc8d36-6ba9-4c7d-85c1-5c89610bf711"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="9"/>
+				</textElement>
+				<text><![CDATA[www.sman1kotagajah.sch.id]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="0" y="169" width="178" height="30" uuid="bf2ff03b-8673-4484-afd4-c0652659a255"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="0" y="199" width="178" height="30" uuid="2d924af6-bd17-4e4e-a952-92f821ded967"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="0" y="229" width="178" height="30" uuid="ba102547-3ee2-4bac-8291-351b67e530ba"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="0" y="259" width="178" height="30" uuid="5aef84b7-4acb-420c-8e39-3c03057a7e09"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="0" y="289" width="178" height="30" uuid="0bbefb00-9774-47aa-a3a6-7459b8611ca0"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="0" y="319" width="178" height="30" uuid="4419170e-87ca-43d6-81a6-1b1db799d98c"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="0" y="349" width="178" height="30" uuid="9ae15e38-559f-4bf9-9623-dedd01862053"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="178" y="169" width="377" height="30" uuid="53cee65d-6dba-4ca1-8b09-2492b385d3de"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="178" y="199" width="377" height="30" uuid="83b8c34a-356f-4efd-861e-95982dc9aaea"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="178" y="229" width="377" height="30" uuid="b7863030-28fd-4dac-b21d-8f126adf79fa"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="178" y="259" width="377" height="30" uuid="d6377d83-5ea7-4588-9ddd-2f6716dadf73"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="178" y="289" width="377" height="30" uuid="c5b319ee-8844-4d87-a20f-408070660840"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="178" y="319" width="377" height="30" uuid="bf77092b-f21a-404e-b5f8-f20c446a6485"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="178" y="349" width="377" height="30" uuid="80dbc96c-dc9c-4688-8aef-5aef5c0dc928"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="0" y="169" width="176" height="30" uuid="6f8de4bf-249e-4d18-8534-ee7eea7649d1"/>
+				<textElement textAlignment="Justified" verticalAlignment="Middle">
+					<font fontName="Arial" isBold="true"/>
+					<paragraph leftIndent="6"/>
+				</textElement>
+				<text><![CDATA[Nama Lengkap]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="199" width="176" height="30" uuid="8b506c8d-a499-4a6b-a7de-4ddcb5226c60"/>
+				<textElement textAlignment="Justified" verticalAlignment="Middle">
+					<font fontName="Arial" isBold="true"/>
+					<paragraph leftIndent="6"/>
+				</textElement>
+				<text><![CDATA[NIS]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="229" width="176" height="30" uuid="a7cc879f-dc89-45d0-a61a-a1f2b7f6a939"/>
+				<textElement textAlignment="Justified" verticalAlignment="Middle">
+					<font fontName="Arial" isBold="true"/>
+					<paragraph leftIndent="6"/>
+				</textElement>
+				<text><![CDATA[Tanggal Lahir]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="259" width="176" height="30" uuid="c440aede-64b1-4a18-89a9-35fe00715300"/>
+				<textElement textAlignment="Justified" verticalAlignment="Middle">
+					<font fontName="Arial" isBold="true"/>
+					<paragraph leftIndent="6"/>
+				</textElement>
+				<text><![CDATA[Jenis Kelamin]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="289" width="176" height="30" uuid="6006c5c3-9428-4dc6-8cc4-9c5083eedbd4"/>
+				<textElement textAlignment="Justified" verticalAlignment="Middle">
+					<font fontName="Arial" isBold="true"/>
+					<paragraph leftIndent="6"/>
+				</textElement>
+				<text><![CDATA[Alamat Rumah]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="319" width="176" height="30" uuid="eda99b00-cef9-4813-9940-f788df7862a9"/>
+				<textElement textAlignment="Justified" verticalAlignment="Middle">
+					<font fontName="Arial" isBold="true"/>
+					<paragraph leftIndent="6"/>
+				</textElement>
+				<text><![CDATA[Kode Pos]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="349" width="176" height="30" uuid="7be3ef6e-ae86-407c-963b-d1e8bd3ad825"/>
+				<textElement textAlignment="Justified" verticalAlignment="Middle">
+					<font fontName="Arial" isBold="true"/>
+					<paragraph leftIndent="6"/>
+				</textElement>
+				<text><![CDATA[No. HP]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="255" y="135" width="300" height="20" uuid="e72c15ee-745f-4495-a9fd-a76edf2d1878"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Arial"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{TP}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="0" y="389" width="100" height="13" uuid="ad3e61d4-38c9-42d0-9f5a-32d83ae63847"/>
+				<textElement textAlignment="Justified" verticalAlignment="Middle">
+					<font fontName="Arial" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Catatan :]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="18" y="402" width="387" height="14" uuid="4b9a2ec9-7189-4937-84aa-2e479051e487"/>
+				<textElement textAlignment="Justified" verticalAlignment="Middle">
+					<font fontName="Arial" size="10"/>
+				</textElement>
+				<text><![CDATA[1. Foto dilaksanakan diruang Perpustakaan.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="18" y="416" width="387" height="14" uuid="c1fd4150-e324-41bc-a1db-474ec6fdfe4c"/>
+				<textElement textAlignment="Justified" verticalAlignment="Middle">
+					<font fontName="Arial" size="10"/>
+				</textElement>
+				<text><![CDATA[2. Pakaian putih abu-abu + Jaket almamater.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="18" y="430" width="387" height="14" uuid="96313adb-e87b-4b6a-a643-d3235cff9419"/>
+				<textElement textAlignment="Justified" verticalAlignment="Middle">
+					<font fontName="Arial" size="10"/>
+				</textElement>
+				<text><![CDATA[3. Biaya kartu perpustakaan Rp. 10.000 (Sepuluh Ribu Rupiah).]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="18" y="444" width="387" height="14" uuid="ef97100e-129d-4cd9-ada1-e170fb3e0da4"/>
+				<textElement textAlignment="Justified" verticalAlignment="Middle">
+					<font fontName="Arial" size="10"/>
+				</textElement>
+				<text><![CDATA[4. Diwajibkan menyumbang buku non pelajaran (satu) buah.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="552" width="190" height="20" uuid="4dcec5f9-5482-4692-a674-955fb5cddb79"/>
+				<textElement textAlignment="Justified" verticalAlignment="Middle"/>
+				<text><![CDATA[Mengetahui]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="572" width="190" height="20" uuid="d18040f8-3e41-4659-9cc9-24b39d9cbf72"/>
+				<textElement textAlignment="Justified" verticalAlignment="Middle"/>
+				<text><![CDATA[Kepala Perpustakaan SMAN 1 Kotagajah ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="670" width="23" height="20" uuid="78f6ceac-1af3-4aa0-a71d-aff0323aa3c0"/>
+				<textElement textAlignment="Justified" verticalAlignment="Middle"/>
+				<text><![CDATA[NIP.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="369" y="522" width="115" height="20" uuid="baa8a6a6-5a4b-4222-a34e-e9f056f1ae69"/>
+				<textElement textAlignment="Justified" verticalAlignment="Middle"/>
+				<text><![CDATA[Kotagajah............................]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="369" y="572" width="158" height="20" uuid="0cbe2f5b-a9d0-45e7-bc3f-5e0abcde8386"/>
+				<textElement textAlignment="Justified" verticalAlignment="Middle"/>
+				<text><![CDATA[Orang Tua/Wali]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="369" y="650" width="158" height="20" uuid="d8417cab-2dbc-48a9-b8ca-2c05a0e5dfa1"/>
+				<textElement textAlignment="Justified" verticalAlignment="Middle"/>
+				<text><![CDATA[..............................................................]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="0" y="650" width="190" height="20" uuid="1ba4aa2d-8075-4888-9471-1ba80b2ebd7f"/>
+				<textElement textAlignment="Justified" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{KEP}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="23" y="670" width="167" height="20" uuid="8eb2b322-2ce1-4256-9c04-702f6b70fb30"/>
+				<textElement textAlignment="Justified" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{NIP}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="484" y="522" width="43" height="20" uuid="bdc3fb1b-41e1-4887-9483-b9d45639bfd9"/>
+				<textElement textAlignment="Justified" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{Year}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<columnFooter>
+		<band splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band splitType="Stretch"/>
+	</summary>
+</jasperReport>

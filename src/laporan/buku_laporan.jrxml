@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="null" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="a783af4a-872a-4581-9111-ff1edc3b1fda">
+	<property name="ireport.zoom" value="1.2100000000000006"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<subDataset name="Table Dataset 1" uuid="7587bffc-c57e-4b03-964e-b48f501def29"/>
+	<parameter name="CurrentDate" class="java.util.Date">
+		<defaultValueExpression><![CDATA[new Date()]]></defaultValueExpression>
+	</parameter>
+	<parameter name="Year" class="java.lang.String" isForPrompting="false">
+		<parameterDescription><![CDATA[]]></parameterDescription>
+		<defaultValueExpression><![CDATA[new SimpleDateFormat("yyyy").format($P{CurrentDate})]]></defaultValueExpression>
+	</parameter>
+	<field name="NO BUKU" class="java.lang.String"/>
+	<field name="JUDUL BUKU" class="java.lang.String"/>
+	<field name="NO ISBN" class="java.lang.String"/>
+	<field name="PENGARANG" class="java.lang.String"/>
+	<field name="PENERBIT" class="java.lang.String"/>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="87" splitType="Stretch">
+			<image>
+				<reportElement x="53" y="0" width="48" height="63" uuid="e28897c3-f27f-4437-bf38-d1fb4a0680a2"/>
+				<imageExpression><![CDATA["C:\\Users\\ACER\\Documents\\NetBeansProjects\\Perpustakaan_SMAN1_KOTAGAJAH\\src\\icon\\lampung-logo-1.png"]]></imageExpression>
+			</image>
+			<image>
+				<reportElement x="455" y="0" width="58" height="63" uuid="fd96ec57-48c2-4ff3-9497-39c23f7f9860"/>
+				<imageExpression><![CDATA["C:\\Users\\ACER\\Documents\\NetBeansProjects\\Perpustakaan_SMAN1_KOTAGAJAH\\src\\icon\\smansaga-removebg-preview.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="101" y="0" width="354" height="16" uuid="1f8377de-2c6b-409f-b35a-2e1eb1afff26"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="10" isBold="false"/>
+				</textElement>
+				<text><![CDATA[PEMERINTAH PROVINSI LAMPUNG]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="101" y="16" width="354" height="16" uuid="17a81962-0126-4730-a825-2a7910fa2ae8"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="10" isBold="false"/>
+				</textElement>
+				<text><![CDATA[DINAS PENDIDIKAN DAN KEBUDAYAAN]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="101" y="32" width="354" height="16" uuid="c1193e4c-1867-4ec5-a10a-a3552753614b"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[SMA NEGERI 1 KOTAGAJAH]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="101" y="48" width="354" height="14" uuid="18589d27-048b-4617-8d14-609a50223d4a"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="9"/>
+				</textElement>
+				<text><![CDATA[Jalan Raya Kotagajah Lampung Tengah, Kode Pos 34153]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="101" y="62" width="220" height="14" uuid="b04d1476-1a2c-417d-bb22-c438de1e0d57"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="Arial" size="9"/>
+				</textElement>
+				<text><![CDATA[Telp. 0725-48316 - Fax, 0725-48316. E-mail: ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="321" y="62" width="134" height="14" forecolor="#0066FF" uuid="d6b0cd87-2d5f-45f2-903b-946a33f2866e"/>
+				<textElement>
+					<font fontName="Arial"/>
+				</textElement>
+				<text><![CDATA[sman1koga@yahoo.com]]></text>
+			</staticText>
+			<line>
+				<reportElement x="53" y="80" width="450" height="1" uuid="ad0a8a6d-a7f9-4d6a-9a8c-ac022dd6dcb8"/>
+				<graphicElement>
+					<pen lineWidth="2.25" lineStyle="Double"/>
+				</graphicElement>
+			</line>
+		</band>
+	</title>
+	<pageHeader>
+		<band height="49" splitType="Stretch">
+                        <printWhenExpression><![CDATA[new Boolean($V{PAGE_NUMBER}.intValue()==1)]]></printWhenExpression>
+			<textField>
+				<reportElement x="266" y="26" width="288" height="20" uuid="2ce79b3b-3e04-4888-8b5e-64022acee1ad"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Arial" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{Year}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="0" y="26" width="266" height="20" uuid="01ee5e4c-ce2c-4786-97ae-1e9d24203cd6"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="Arial" size="12"/>
+				</textElement>
+				<text><![CDATA[TAHUN ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="6" width="554" height="20" uuid="6f4c7a8d-549d-4adc-b151-f0bbbbee6e65"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="12"/>
+				</textElement>
+				<text><![CDATA[DAFTAR BUKU PERPUSTAKAAN SMA NEGERI 1 KOTAGAJAH ]]></text>
+			</staticText>
+		</band>
+	</pageHeader>
+	<columnHeader>
+		<band height="32" splitType="Stretch">
+			<printWhenExpression><![CDATA[new Boolean($V{PAGE_NUMBER}.intValue()==1)]]></printWhenExpression>
+			<rectangle>
+				<reportElement x="0" y="0" width="68" height="32" uuid="5e5c9079-48fe-4419-a39f-85f6b9d4d484"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="68" y="0" width="147" height="32" uuid="bfdf039f-70bb-435c-b882-d1d6755417c8"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="215" y="0" width="88" height="32" uuid="cdf7e0b2-e7b5-44db-8e03-b70cd9ea9a44"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="303" y="0" width="179" height="32" uuid="8bc7f86a-3b9d-446a-b128-560939d76c1c"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="482" y="0" width="73" height="32" uuid="80dd8582-0ed3-4c33-8b44-e61570291be3"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="0" y="0" width="68" height="32" uuid="21048f8d-011c-43bd-bc41-89cf60a9473d"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[NO BUKU]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="68" y="0" width="147" height="32" uuid="e4123956-70c9-4491-acff-edaff1bfbc56"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[JUDUL BUKU]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="215" y="0" width="88" height="32" uuid="0d46653c-cce6-4fb8-9497-d9e677cc8ceb"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[NO ISBN]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="303" y="0" width="179" height="32" uuid="aabf7d20-e11d-4db1-8688-2a5d7e6422d8"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[PENGARANG]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="482" y="0" width="73" height="32" uuid="ea853386-4316-48f2-8b33-bd102280cb74"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[PENERBIT]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="29" splitType="Stretch">
+			<rectangle>
+				<reportElement x="0" y="0" width="68" height="29" uuid="a93b0311-f77c-4a23-bb16-8df0bda57193"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="68" y="0" width="147" height="29" uuid="63ad3811-8da8-4001-a5e0-a57b075352e9"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="215" y="0" width="88" height="29" uuid="ce6539b8-cf23-45d3-9946-97c2c84aa38d"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="303" y="0" width="179" height="29" uuid="3179eddc-e381-40c5-b65e-7aa4de79360a"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="482" y="0" width="73" height="29" uuid="cecb42d2-bf2b-4853-8574-93d6dc682df3"/>
+			</rectangle>
+			<textField>
+				<reportElement x="0" y="0" width="68" height="29" uuid="f99bf051-b39d-4d76-aea8-7c8e2a984ab8"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{NO BUKU}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="68" y="0" width="147" height="29" uuid="3240b815-5fb3-4a92-b219-5b665c628ea7"/>
+				<textElement textAlignment="Justified" verticalAlignment="Middle">
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{JUDUL BUKU}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="215" y="0" width="88" height="29" uuid="2a8a61a0-f19a-4113-b1d4-c9418177133d"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{NO ISBN}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="303" y="0" width="179" height="29" uuid="a2d3f184-ae83-4279-a2ef-0affcc751e92"/>
+				<textElement textAlignment="Justified" verticalAlignment="Middle">
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{PENGARANG}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="482" y="0" width="73" height="29" uuid="8aa3e8df-3103-4bd0-a831-4e54d6c52399"/>
+				<textElement textAlignment="Justified" verticalAlignment="Middle">
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{PENERBIT}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="45" splitType="Stretch"/>
+	</columnFooter>
+	<lastPageFooter>
+		<band height="134" splitType="Stretch">
+			<staticText>
+				<reportElement x="356" y="0" width="162" height="14" uuid="49d345c0-216e-4eda-ad28-2ec489016f97"/>
+				<textElement textAlignment="Justified" verticalAlignment="Middle">
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<text><![CDATA[Kotagajah, ......................................................]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="519" y="0" width="36" height="14" uuid="e5106125-ae63-44b2-a323-4f282c59e859"/>
+				<textElement textAlignment="Justified" verticalAlignment="Middle">
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{Year}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="357" y="14" width="198" height="14" uuid="025ffc45-3c5f-4866-8cb5-844cc6140232"/>
+				<textElement textAlignment="Justified" verticalAlignment="Middle">
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<text><![CDATA[Mengetahui:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="357" y="28" width="198" height="14" uuid="c24c3b65-489c-4427-99fe-f5417026e917"/>
+				<textElement textAlignment="Justified" verticalAlignment="Middle">
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<text><![CDATA[Kepala Perpustakaan SMAN 1 Kotagajah]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="357" y="105" width="198" height="13" uuid="d414c91b-9cd2-4cf0-b227-04020731144a"/>
+				<textElement textAlignment="Justified" verticalAlignment="Middle">
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<text><![CDATA[..............................................................................................]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="356" y="118" width="198" height="14" uuid="1bf98753-8bcd-4346-8c2c-555f09de52d9"/>
+				<textElement textAlignment="Justified" verticalAlignment="Middle">
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<text><![CDATA[NIP.........................................................................................]]></text>
+			</staticText>
+		</band>
+	</lastPageFooter>
+	<summary>
+		<band height="42" splitType="Stretch"/>
+	</summary>
+</jasperReport>

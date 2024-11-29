@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="null" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="3b67b3f6-e643-4d23-9b13-ea1e9a4ddf5c">
+	<property name="ireport.zoom" value="2.8531167061100042"/>
+	<property name="ireport.x" value="253"/>
+	<property name="ireport.y" value="56"/>
+	<subDataset name="dataset1" uuid="e9f4c5ff-17e6-47eb-8690-a5dad0cf5adb"/>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band splitType="Stretch"/>
+	</title>
+	<pageHeader>
+		<band splitType="Stretch"/>
+	</pageHeader>
+	<columnHeader>
+		<band splitType="Stretch"/>
+	</columnHeader>
+	<detail>
+		<band height="207" splitType="Stretch">
+			<rectangle radius="10">
+				<reportElement x="135" y="0" width="285" height="200" backcolor="#9AB9CB" uuid="455d8b45-f461-408a-a8d7-5de652557c11"/>
+			</rectangle>
+			<ellipse>
+				<reportElement x="155" y="6" width="25" height="30" forecolor="#FFFFFF" uuid="e5a91d43-3533-4b8d-b700-80f584c6a489"/>
+			</ellipse>
+			<image hAlign="Center" vAlign="Middle">
+				<reportElement x="148" y="0" width="39" height="38" uuid="7450c36a-5d2d-42f6-92a5-122da61ee374"/>
+				<imageExpression><![CDATA["D:\\RisetProposal\\Perpustakaan_SMAN1_KOTAGAJAH\\src\\icon\\smansaga-removebg.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="187" y="0" width="223" height="12" forecolor="#364E8A" uuid="5e49b6ad-1b9d-41ae-86c0-c00f8c063be6"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[TATA TERTIB PERPUSTAKAAN]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="187" y="12" width="223" height="12" forecolor="#364E8A" uuid="818b4801-6483-4a1b-9607-0395c59c1c49"/>
+				<textElement textAlignment="Center" verticalAlignment="Top">
+					<font fontName="Arial" size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[SMA NEGERI 1 KOTAGAJAH]]></text>
+			</staticText>
+			<line>
+				<reportElement x="148" y="46" width="262" height="1" forecolor="#364E8A" uuid="b3f1af0b-9854-45db-86ea-1581ce915db4"/>
+			</line>
+			<staticText>
+				<reportElement x="148" y="59" width="262" height="10" uuid="d6fa23a2-4058-4524-a154-84c629512e27"/>
+				<textElement textAlignment="Justified" verticalAlignment="Middle">
+					<font fontName="Arial" size="8" isBold="false"/>
+				</textElement>
+				<text><![CDATA[1. Kartu ini harus dibawa pada waktu meminjam buku.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="148" y="69" width="262" height="10" uuid="21ea350d-3e12-443c-9f8a-7974cc1374c3"/>
+				<textElement textAlignment="Justified" verticalAlignment="Middle">
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<text><![CDATA[2. Kartu ini tidak boleh dipergunakan oleh orang lain.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="148" y="79" width="262" height="10" uuid="5ba10f4c-025d-4afd-992c-09d08d12e940"/>
+				<textElement textAlignment="Justified" verticalAlignment="Middle">
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<text><![CDATA[3. Peminjaman buku berlaku untuk 7 hari.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="148" y="89" width="262" height="10" uuid="55948cff-6dd5-4420-81e2-24a428007445"/>
+				<textElement textAlignment="Justified" verticalAlignment="Middle">
+					<font fontName="Arial" size="8"/>
+				</textElement>
+				<text><![CDATA[4. Taati aturan perpustakaan.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="148" y="166" width="262" height="10" uuid="ef1cb398-6f39-415f-98e4-c4ebfdbe5e4c"/>
+				<textElement textAlignment="Justified" verticalAlignment="Middle">
+					<font fontName="Arial" size="6"/>
+				</textElement>
+				<text><![CDATA[Jl. Raya Kotagajah Lampung Tengah 34153]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="148" y="176" width="262" height="10" uuid="0afa86ab-f102-4235-896f-5147cf01c418"/>
+				<textElement textAlignment="Justified" verticalAlignment="Middle">
+					<font fontName="Arial" size="6"/>
+				</textElement>
+				<text><![CDATA[Telp. 0725-48316 - Fax (0725)48316]]></text>
+			</staticText>
+		</band>
+	</detail>
+	<columnFooter>
+		<band splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band splitType="Stretch"/>
+	</summary>
+</jasperReport>

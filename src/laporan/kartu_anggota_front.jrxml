@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="null" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="19fec90e-0920-4f19-900f-b0a50edb7ed3">
+	<property name="ireport.zoom" value="1.7715610000000042"/>
+	<property name="ireport.x" value="121"/>
+	<property name="ireport.y" value="0"/>
+	<field name="ID" class="java.lang.String"/>
+	<field name="Nama" class="java.lang.String"/>
+	<field name="NIS" class="java.lang.String"/>
+	<field name="NIP" class="java.lang.String"/>
+	<field name="Created" class="java.lang.String"/>
+	<field name="Expired" class="java.lang.String"/>
+	<field name="KepalaPerpus" class="java.lang.String"/>
+	<field name="Barcode" class="java.lang.String">
+		<fieldDescription><![CDATA[12345]]></fieldDescription>
+	</field>
+	<field name="AlamatNoTelp" class="java.lang.String"/>
+	<field name="gambar" class="java.lang.String"/>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band splitType="Stretch"/>
+	</title>
+	<pageHeader>
+		<band splitType="Stretch"/>
+	</pageHeader>
+	<columnHeader>
+		<band splitType="Stretch"/>
+	</columnHeader>
+	<detail>
+		<band height="207" splitType="Stretch">
+			<rectangle radius="10">
+				<reportElement x="135" y="0" width="285" height="200" forecolor="#364E8A" backcolor="#9AB9CB" uuid="dee5974b-3e7a-4db0-8c5c-3c4b43c12a41"/>
+				<graphicElement>
+					<pen lineStyle="Double"/>
+				</graphicElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="184" y="14" width="223" height="14" forecolor="#364E8A" uuid="55b82a05-ab5b-4f24-a526-56812891802d"/>
+				<textElement textAlignment="Center" verticalAlignment="Top">
+					<font fontName="Arial" size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[SMA NEGERI 1 KOTAGAJAH]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="184" y="0" width="223" height="14" forecolor="#364E8A" uuid="cddfcd2a-99e1-4be3-898a-5f91f42ce2bd"/>
+				<textElement textAlignment="Center" verticalAlignment="Top">
+					<font fontName="Arial" size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[KARTU ANGGOTA PERPUSTAKAAN]]></text>
+			</staticText>
+			<ellipse>
+				<reportElement x="152" y="6" width="25" height="30" forecolor="#FFFFFF" uuid="2e98d2e6-344f-46c9-8cba-593c5452d078"/>
+			</ellipse>
+			<image hAlign="Center" vAlign="Middle">
+				<reportElement x="145" y="0" width="39" height="38" uuid="88b660a6-e9e1-4a91-a964-c5e9f6aafe4f"/>
+				<imageExpression><![CDATA["D:\\RisetProposal\\Perpustakaan_SMAN1_KOTAGAJAH\\src\\icon\\smansaga-removebg.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="145" y="48" width="71" height="12" uuid="5dae0109-50be-41e9-8807-eb214aec49f6"/>
+				<textElement textAlignment="Justified" verticalAlignment="Middle">
+					<font fontName="Arial"/>
+				</textElement>
+				<text><![CDATA[ID Anggota]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="145" y="60" width="71" height="12" uuid="68d026fa-6fb9-419a-a6b3-a09a2b8c0348"/>
+				<textElement textAlignment="Justified" verticalAlignment="Middle">
+					<font fontName="Arial"/>
+				</textElement>
+				<text><![CDATA[Nama Anggota]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="145" y="72" width="71" height="12" uuid="3870faf1-304b-4363-9e52-5914772d741a"/>
+				<textElement textAlignment="Justified" verticalAlignment="Middle">
+					<font fontName="Arial"/>
+				</textElement>
+				<text><![CDATA[Nomor Identitas]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="145" y="84" width="71" height="12" uuid="c48e2a9a-8369-4029-81a0-1d9bcdc97d3d"/>
+				<textElement textAlignment="Justified" verticalAlignment="Middle">
+					<font fontName="Arial"/>
+				</textElement>
+				<text><![CDATA[Alamat/Nomor]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="145" y="96" width="38" height="12" uuid="8b78f318-4ad8-4539-bca1-dc048804cbbb"/>
+				<textElement textAlignment="Justified" verticalAlignment="Middle">
+					<font fontName="Arial"/>
+				</textElement>
+				<text><![CDATA[Telepon]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="216" y="48" width="10" height="12" uuid="e175198b-b4c6-4a0c-9788-c750e1d491e1"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial"/>
+				</textElement>
+				<text><![CDATA[:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="216" y="60" width="10" height="12" uuid="f5d5139b-4786-463f-b180-a0b8a2f1e7c8"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial"/>
+				</textElement>
+				<text><![CDATA[:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="216" y="72" width="10" height="12" uuid="fa65d7ad-0ce6-4ea3-a870-d0dda8fa2b1f"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial"/>
+				</textElement>
+				<text><![CDATA[:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="216" y="84" width="10" height="12" uuid="99dcf6e7-41b9-445b-be4e-bfb210ce95c5"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial"/>
+				</textElement>
+				<text><![CDATA[:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="226" y="48" width="181" height="12" uuid="0bdd8225-4014-4b42-b6fe-9afb53944566"/>
+				<textElement textAlignment="Justified" verticalAlignment="Middle">
+					<font fontName="Arial"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{ID}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="226" y="60" width="181" height="12" uuid="ced461ca-6711-4651-a742-34e22d25b8a9"/>
+				<textElement textAlignment="Justified" verticalAlignment="Middle">
+					<font fontName="Arial"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{Nama}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="226" y="72" width="181" height="12" uuid="2ba4f62b-1a6b-4c7e-ac86-04695748bbc3"/>
+				<textElement textAlignment="Justified" verticalAlignment="Middle">
+					<font fontName="Arial"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{NIS}]]></textFieldExpression>
+			</textField>
+			<line>
+				<reportElement x="184" y="102" width="231" height="1" forecolor="#364E8A" uuid="c65d483f-7c75-4cc0-ae48-ba9e2e3b18b2"/>
+				<graphicElement>
+					<pen lineStyle="Double"/>
+				</graphicElement>
+			</line>
+			<staticText>
+				<reportElement x="198" y="141" width="33" height="8" uuid="2bae630e-b259-44e1-86c0-ce4380a47383"/>
+				<textElement textAlignment="Justified" verticalAlignment="Middle">
+					<font fontName="Arial" size="6" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Kotagajah,]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="198" y="149" width="100" height="8" uuid="ee1891ef-46d4-479b-ab6e-eb9d38cfb21f"/>
+				<textElement textAlignment="Justified" verticalAlignment="Middle">
+					<font fontName="Arial" size="6" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Kepala Perpustakaan]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="198" y="179" width="15" height="8" uuid="a43be493-f609-4a88-b818-34bf8d24c002"/>
+				<textElement textAlignment="Justified" verticalAlignment="Middle">
+					<font fontName="Arial" size="6" isBold="true"/>
+				</textElement>
+				<text><![CDATA[NIP.]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="198" y="171" width="100" height="8" uuid="a277ced9-6c50-40a9-86c8-2defb69f63e4"/>
+				<textElement textAlignment="Justified" verticalAlignment="Middle">
+					<font fontName="Arial" size="6" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{KepalaPerpus}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="213" y="179" width="85" height="8" uuid="b3a932d3-52b1-4965-accc-a69db52954bc"/>
+				<textElement textAlignment="Justified" verticalAlignment="Middle">
+					<font fontName="Arial" size="6" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{NIP}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="298" y="141" width="49" height="8" uuid="2b8bab99-eaf2-4985-a3d4-07654dcace3c"/>
+				<textElement>
+					<font fontName="Arial" size="6" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Berlaku Hingga,]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="234" y="141" width="64" height="8" uuid="5c4f33cb-2500-4859-aa16-fe2e59453827"/>
+				<textElement textAlignment="Justified" verticalAlignment="Middle">
+					<font fontName="Arial" size="6" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{Created}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="347" y="141" width="68" height="8" uuid="13e3c5d7-018e-417d-a5b4-d5994cb30ee0"/>
+				<textElement textAlignment="Justified" verticalAlignment="Middle">
+					<font fontName="Arial" size="6" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{Expired}]]></textFieldExpression>
+			</textField>
+			<componentElement>
+				<reportElement x="298" y="150" width="117" height="50" uuid="2933a53d-e777-4810-b630-1b6c35100f1e"/>
+				<jr:barbecue xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd" type="Codabar" drawText="true" checksumRequired="false" barWidth="3" barHeight="102">
+					<jr:codeExpression><![CDATA[$F{Barcode}]]></jr:codeExpression>
+				</jr:barbecue>
+			</componentElement>
+			<textField>
+				<reportElement x="226" y="84" width="181" height="12" uuid="5deeadcf-5a95-4f90-80fc-be5b39e904f7"/>
+				<textElement textAlignment="Justified" verticalAlignment="Middle">
+					<font fontName="Arial"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{AlamatNoTelp}]]></textFieldExpression>
+			</textField>
+			<image scaleImage="FillFrame">
+				<reportElement x="145" y="137" width="39" height="50" uuid="5c826dbf-aba5-438b-a042-822c47c4d662"/>
+				<imageExpression><![CDATA[$F{gambar}]]></imageExpression>
+			</image>
+		</band>
+	</detail>
+	<columnFooter>
+		<band splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band splitType="Stretch"/>
+	</summary>
+</jasperReport>
